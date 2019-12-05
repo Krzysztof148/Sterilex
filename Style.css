@@ -26,6 +26,7 @@ body
     margin-top: 5px;
     color: black;
     padding: 20px;
+	text-align: center;
      
 }
  
@@ -35,7 +36,7 @@ body
     color: black;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     height: 170px;
 }
  
@@ -51,29 +52,18 @@ body
 #topbarR
 {
     float: left;
-    padding: 10px;
+    padding: 5px;
     width: 760px;
     font-size: 16px;
     text-align: justify;
 }
- 
-#sidebar
-{
-    float: left;
-    width: 148px;
-    min-height: 580px;
-    padding:20px;
-    background-color: lightgray;
-    text-align: center;
-    font-size: 18px;
-    border-right: 2px dotted #666666;
-}
+
  
 #content
 {
     float: left;
     padding: 40px;
-    width: 850px;
+    width: 1000px;
     background-color: #dedede;
     min-height: 580px;
     text-align: justify;
@@ -82,43 +72,13 @@ body
 #footer
 {
     clear: both;
-    color: blue;
+    color: black;
     text-align: center;
     padding: 30px;
     font-size: 18px;
 }
  
-.option
-{
-    float: left;
-    min-width: 50px;
-    height: 25px;
-    font-size: 18px;
-    padding: 10px;
-    border-right: 2px dotted #444444;
-    opacity: 0.8;
-}
- 
-.option:hover
-{
-    background-color: #000000;
-    cursor: pointer;
-}
- 
-.optionL
-{
-    font-size:16px;
-    height:30px;
-    padding: 5px;
-    border-bottom: 1px dotted #444444;
-}
- 
-.optionL:hover
-{
-    background-color: #f36742;
-    color: white;
-    cursor: pointer;
-}
+
  
 .bigtitle
 {
